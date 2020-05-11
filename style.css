@@ -1,0 +1,27 @@
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #00DDD7 ;
+  background-color:#373644;
+}
+.container {
+  display: block;
+  width: 100%;
+  background-image: url('../img/isale.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+main{
+  font-size: 1.1em;
+}
+
+header {
+  text-align: center;
+  color: #B1DB00;
+}
+
+form {
+  padding: 2em;
+}
+
