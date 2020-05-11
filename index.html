@@ -3,10 +3,52 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
+    <title>Survey Form</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <h1 id="title">Isale Corporation Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+<form action="" id="survey-form">
+  
+  <label for="name" id="name-label">Name</label> <br>
+  <input type="text" id="name" placeholder="Enter your name" required>
+  <br>
+  <label for="email" id="email-label">Email</label> <br>
+  <input type="email" id="email" placeholder="example@email.com" required>
+  <br>
+  
+  <label for="number" id="number-label">Number</label> <br>
+  <input type="number" id="number" min="10" max="10" placeholder="Your Number" required>
+  <br>
+  <p>Select your department</p>
+  <select name="" id="dropdown">
+    <option value="it">IT</option>
+    <option value="marketing">Marketing</option>
+    <option value="design">Design</option>
+    <option value="finance">Finance</option>
+    <option value="om">Operations management</option>
+    
+  </select>
+  <p>What is your gender?</p>
+  <input type="radio" name="gender" value="male">Male
+  <input type="radio" name="gender" value="female">Female
+  <br>
+  <p>What do you think we should improve on?</p>
+  <input type="checkbox" value="communication"> Customer communication
+  <br>
+  <input type="checkbox" value="offers"> Offers and promotions
+  <br>
+  <input type="checkbox" value="staff"> Add more staff 
+  <br>
+  <input type="checkbox" value="leadership"> Improve leadership and management
+  <br>
+  <p>Any comments or suggestions?</p>
+  <textarea name="" id="" cols="30" rows="10"></textarea> 
+  <br>
+  <button id="submit">Submit</button>
+  
+</form>
     <script src="script.js"></script>
   </body>
 </html>
