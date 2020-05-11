@@ -6,9 +6,6 @@ body {
 .container {
   display: block;
   width: 100%;
-  background-image: url('../img/isale.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
     
 }
 
@@ -25,3 +22,17 @@ form {
   padding: 2em;
 }
 
+number {
+  width: 100%;
+}
+
+input[type='text'], input[type='email'], input[type='number'], select, button {
+  width: 100%;
+  height: 2em;
+}
+textarea{
+  width:100%;
+}
+button {
+  background-color:#B1DB00;
+}
