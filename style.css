@@ -35,5 +35,6 @@ textarea {
   width: 100%;
 }
 button {
+  height: 2.5em;
   background-color:#B1DB00;
 }
